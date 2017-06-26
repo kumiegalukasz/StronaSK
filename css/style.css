@@ -21,38 +21,60 @@ background: url(../img/48.jpg)no-repeat center;
 	font-size: 40px;
 }
 section{
-    padding: 100px 0;
+    padding: 70px 0;
      color: white;
 }
 #about{
-  background-color: #EEEEEE;
+	background-color: #EEEEEE;
     color: #333;
     font-size: 16px;
    
 }
+
+#scheduler-border {
+    padding: 0 10px 10px 5px;
+	font-size: 15px;
+}
+
+#scheduler-border  h4
+{
+	border-bottom: 2px solid #2daae1;
+    font-style: italic;
+    text-align: left;
+	margin-top: 45px;
+	padding-bottom: 5px;
+	margin-left: -5px;
+}
+
 #about h2 {
 	border-bottom: 2px solid #2daae1;
     font-style: italic;
     text-align: center;
+	margin-bottom: 25px;
+	padding-bottom: 5px;
 }
-#oferta {
+#offer {
 	background-color: white;
     color: #333;
     font-size: 18px;
 }
-#oferta h2 {
+#offer h2 {
 	border-bottom: 2px solid #2daae1;
     font-style: italic;
     text-align: center;
+	margin-bottom: 25px;
+	padding-bottom: 5px;
 }
-#kontakt {
-	 background-color: #EEEEEE;
+#contact {
+	background-color: #EEEEEE;
     color: #333;
 }
-#kontakt h2 {
+#contact h2 {
 	border-bottom: 2px solid #2daae1;
     font-style: italic;
     text-align: center;
+	margin-bottom: 25px;
+	padding-bottom: 5px;
 }
 .skills {
 	width: 100px;
@@ -95,7 +117,7 @@ label{
 }
 adress{
     color: #333;
-    font-size: 20px;
+    font-size: 17px;
 }
 footer{
     background-color: #EEEEEE;
@@ -115,8 +137,7 @@ background-color: #2daae1;
 nav{
     padding: 10px;
 }
-adress strong{
-    	border-bottom: 2px solid #2daae1;
+adress strong{    	
     font-style: italic;
 }
 .text-error{
